@@ -1,0 +1,18 @@
+{
+  "name": "org.hammerquistudios.craft",
+  "version": "1.0.0",
+  "description": "Craft 3 base site with UI Kit 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Hammerquist Studios",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
