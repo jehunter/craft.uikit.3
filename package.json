@@ -1,5 +1,5 @@
 {
-  "name": "org.hammerquistudios.craft",
+  "name": "org.hammerquistudios.uikit3",
   "version": "1.0.0",
   "description": "Craft 3 base site with UI Kit 3",
   "main": "index.js",
@@ -9,16 +9,16 @@
   "author": "Hammerquist Studios",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^8.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.1",
-    "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.4"
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "gulp": "latest",
+    "gulp-babel": "latest",
+    "gulp-concat": "latest",
+    "gulp-csso": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest"
   },
   "dependencies": {
-    "uikit": "^3.0.0-rc.14"
+    "uikit": "latest"
   }
 }

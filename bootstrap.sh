@@ -40,6 +40,7 @@ sudo ln -s /usr/local/bin/composer /usr/bin/composer
 curl -sL https://rpm.nodesource.com/setup_8.x | sudo -E bash -
 sudo yum -y install -y nodejs
 sudo npm install npm@latest -g
+npm install --global gulp-cli
 
 cd /vagrant
 
