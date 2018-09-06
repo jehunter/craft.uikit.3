@@ -49,6 +49,8 @@ sudo mv craft.conf /etc/nginx/conf.d/craft.conf
 composer install
 
 npm install
+# Workaround for node-sass unable to install via sudo
+sudo npm install --unsafe-perm gulp-sass --save-dev
 
 sudo cp node_modules/uikit/dist/js/uikit.min.js web/js/uikit.min.js
 sudo cp node_modules/uikit/dist/js/uikit-icons.min.js web/js/uikit-icons.min.js
