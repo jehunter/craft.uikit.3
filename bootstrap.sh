@@ -49,6 +49,9 @@ composer install
 
 npm install
 
+sudo cp node_modules/uikit/dist/js/uikit.min.js web/js/uikit.min.js
+sudo cp node_modules/uikit/dist/js/uikit-icons.min.js web/js/uikit-icons.min.js
+
 sudo service nginx start
 sudo service php-fpm start
 sudo service mysqld start
