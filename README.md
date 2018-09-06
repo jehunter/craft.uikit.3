@@ -8,4 +8,4 @@
 6. Change permissions for *craft* bash script file to 744
 7. Run *./craft setup*
 8. Go to http://craft.local:4567 (if 500 error, double check permissions on storage folder and sub folders)
-9. Enable auto rsync by running *vagrant rsync* in the first terminal window where you ran *vagrant up*
+9. Enable auto rsync by running *vagrant rsync-auto* in the first terminal window where you ran *vagrant up*
